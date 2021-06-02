@@ -1,0 +1,39 @@
+.container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editorContainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  min-height: 200px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: text;
+}
+
+.editorButtons {
+  margin-bottom: 30px;
+}
+
+.blogForm {
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 30px;
+}
+
+.blogForm .blogTitle {
+  width: 100%;
+  margin-right: 30px;
+}
+
+.blogForm .uploadImage {
+  margin-right: 30px;
+}
+
+.buttonContainer {
+  margin-bottom: 30px;
+}
