@@ -43,7 +43,7 @@ export default function App() {
       data.append("title", blogTitle.current.value);
       data.append("content", stateToHTML(editorState.getCurrentContent()));
       data.append("image", blogImage.current.files[0]);
-      const respone = await fetch("http://localhost:3000/api/blogs", {
+      const respone = await fetch(`http://${process.env.REACT_APP_DOMAIN}/api/blogs`, {
         method: "POST",
         body: data,
       });
